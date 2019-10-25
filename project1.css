@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  margin: 75px 0;
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+label {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+}
+
+.title-block {
+  display: flex;
+  justify-content: center;
+  margin: 13px 0;
+}
+
+
+
+/*img {
+  margin: 15px 15px;
+}
+
+/*.label-block{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border:1px solid blue;
+}*/
+
+.size {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.story {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  width: 150px;
+  margin: 0 15px;
+}
+
+#onestory {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 15px;
+}
+
+#twostory {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 15px;
+}
+
+.color {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.color-block {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 110px;
+width: 110px;
+}
+
+.colors {
+  margin: 0 10px
+}
+
+.exterior {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.exterior-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  width: 150px;
+  margin: 0 15px;
+}
+
+.btnblk {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  margin: 0 15px;
+}
+
+.extbtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 75px;
+  /*margin-right: 40px;*/
+}
+
+
+.sq-ft {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.sq-ft-block {
+  margin: 0 15px;
+}
+
+.garage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.garage-block {
+  margin: 0 15px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.button-submit {
+
+}

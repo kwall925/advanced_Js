@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Project 1</title>
+    <link rel="stylesheet" href="project1.css">
+    <script src="project1.js" charset="utf-8"></script>
+  </head>
+
+  <body>
+  <section class='title'>
+    <div class=title-block>
+      <h1>Build Your Dream House</h1>
+    </div>
+    <div class='title-block'>
+    <h3><em>*In exchange for our services, we will add a <br>10 percent fee to your monthly mortgage payment</em></h3>
+    </div>
+  </section>
+  <section class="sq-ft">
+      <div class="sq-ft-label">
+      <label>Square Footage</label>
+    </div>
+    <div class="sq-ft-block">
+      <input type="number" id='sqinput' placeholder='enter desired square ft.'/>
+      <button class='sqbutton'>Submit</button>
+    </div>
+  </section>
+  <section class='size'>
+    <div class="story stories">
+      <label for="">Stories</label>
+    </div>
+    <div class="story">
+      <img src="images/1story.png" alt="one story" height='150px' width='150px' title="one story ($175 per sq. foot)">
+      <button id='onestory'>Select Option</button>
+    </div>
+    <div class="story">
+      <img src="images/2story.png" alt="two story" height='150px' title="two story ($135 per sq. foot)" width='150px'>
+      <button id="twostory">Select Option</button>
+    </div>
+  </section>
+  <section class='color'>
+    <div class="color-label color-block">
+      <label>Color</label>
+    </div>
+    <div class="red color-block">
+      <img src='images/red.jpg' alt='red' height='80px' width='80px' title='red'>
+      <button class='colors'>Red</button>
+    </div>
+    <div class="orange color-block">
+      <img src="images/orange.png" alt="orange" height='80px' title='orange' width='80px'>
+      <button class='colors'>Orange</button>
+    </div>
+    <div class="yellow color-block">
+      <img src="images/yellow.jpg" alt="yellow" height='80px' width='80px' title='yellow'>
+      <button class='colors'>Yellow</button>
+    </div>
+    <div class="green color-block">
+      <img src="images/green.png" alt="green" height='80px' width='80px' title='green'>
+      <button class='colors'>Green</button>
+    </div>
+    <div class="blue color-block">
+      <img src="images/blue.png" alt="blue" height='80px' width='80px' title='blue'>
+        <button class='colors'>Blue</button>
+    </div>
+    <div class="indigo color-block">
+      <img src="images/indigo.jpg" alt="indigo"  height='80px' width='80px' title='indigo'>
+      <button class='colors'>Indigo</button>
+    </div>
+    <div class="violet color-block">
+      <img src="images/violet.jpg" alt="violet"  height='80px' width='80px' title='violet'>
+      <button class='colors'>Violet</button>
+    </div>
+  </section>
+  <section class='exterior'>
+    <div class="exterior-block exterior-label">
+      <label for="">Exterior</label>
+    </div>
+    <div class="exterior-block">
+      <img src="images/vinyl.png" alt="vinyl" height='150px' width='150px' title='Vinyl (No additional charge)'>
+    </div>
+    <div class="btnblk">
+      <button class='vinyl extbtn'>Select Vinyl</button>
+    </div>
+    <div class="exterior-block">
+      <img src="images/wood.png" alt="wood" height='150px' width='150px' title='Wood: $5000, plus an additional $10 per sq. foot'>
+    </div>
+    <div class="btnblk">
+      <button class='wood extbtn'>Select Wood</button>
+    </div>
+    <div class="exterior-block">
+      <img src="images/brick.png" alt="brick" height='150px' width='150px' title="Brick: $8000, plus an additional $10 per sq. foot">
+    </div>
+    <div class="btnblk">
+      <button class='brick extbtn'>Select Brick</button>
+    </div>
+    <div class="exterior-block">
+      <img src="images/stucco.gif" alt="stucco" height='150px' width='150px' title='Stucco: $6000 Flat Fee'>
+    </div>
+    <div class="btnblk">
+      <button class='stucco extbtn'>Select Stucco</button>
+    </div>
+    <div class="exterior-block">
+      <img src="images/stone.png" alt="stone" height='150px' width='150px' title='Stone: $16000 Flat Fee'>
+    </div>
+    <div class="btnblk">
+      <button class='stone extbtn'>Select Stone</button>
+    </div>
+  </section>
+  <section class='garage'>
+    <div class="garage-block">
+      <label for="">Garage<br>(Number of Cars)</label>
+    </div>
+    <div class="garage-block">
+      <div class='garagebox'>
+      <input type="checkbox" class='g1' name='garage'/>1</input>
+      <input type="checkbox" class='g2' name='garage'/>2</input>
+      <input type="checkbox" class='g3' name='garage'/>3</input>
+    </div>
+    </div>
+  </section>
+  <section class='submit'>
+  <div class="button-submit">
+    <button id="estButton">Calculate Estimate</button>
+  </div>
+  <div id='estSpace'>
+  </div>
+  </section>
+  </body>
+</html>
+
+<script type="text/javascript">
+  init();
+</script>
